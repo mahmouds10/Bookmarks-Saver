@@ -1,0 +1,105 @@
+/* Fixed Style */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+a,
+span {
+  display: inline-block;
+}
+img {
+  display: block;
+  width: 100%;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+::selection {
+  color: black;
+  background-color: #fec260;
+}
+/* =========================== */
+body {
+  background-color: #f7ecde;
+}
+.home_page {
+  min-height: 100vh;
+  z-index: -3;
+}
+.header h1 {
+  position: relative;
+  font-size: 50px;
+  font-family: "Pacifico", cursive;
+  color: #352e28;
+}
+.header h1::after {
+  content: "";
+  height: 25%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 10px;
+  background-color: #fec260;
+  transition: height 350ms;
+  z-index: -1;
+}
+.header h1:hover::after {
+  height: 50%;
+}
+.form2 {
+  border-top: black dotted 2px;
+  border-bottom: black dotted 2px;
+}
+.internal-header h2 {
+  font-family: "Righteous", cursive;
+  font-size: 25px !important;
+  background-image: linear-gradient(to right, #3ca55c, #b5ac49);
+  display: inline-block;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+label {
+  display: inline-block;
+  font-family: "PT Sans", sans-serif;
+}
+
+label i {
+  padding: 0 5px;
+  color: #212529;
+}
+
+.submit {
+  background-color: #d1512d;
+  color: white !important;
+}
+.submit:hover {
+  background-color: #bb4120 !important;
+  color: white !important;
+}
+table {
+    font-family: "PT Sans", sans-serif;
+}
+
+.visit-btn{
+  color: white;
+  background-color: #9eb23b;
+}
+
+.visit-btn:hover{
+  color: white;
+  background-color: #8a9e23;
+}
+.delete-btn{
+  color: white;
+  background-color: #eb1d36;
+}
+
+.delete-btn:hover{
+  color: white;
+  background-color: #d30820;
+}
